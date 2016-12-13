@@ -1,5 +1,4 @@
-
-# SYNOPSIS
+# global-registry
 
 global-registry is a javascript module provides a shortcut to define global variables.
 
