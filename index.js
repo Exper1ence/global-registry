@@ -4,7 +4,7 @@
 const _ = require('lodash');
 const func = require('typical-function');
 
-module.exports = func(Object, (obj) => {
+module.exports = func(Object, function global_registry(obj) {
     _.forOwn(obj, (value, key) => {
         if (!_.isUndefined(global[key]))throw new Error(`The property '${key}' has been defined.`);
         Object.defineProperty(global, key, {

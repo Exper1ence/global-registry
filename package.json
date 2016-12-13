@@ -1,8 +1,8 @@
 {
   "name": "global-registry",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "dependencies": {
     "lodash": "^4.17.2",
-    "typical-function": "^0.1.2"
+    "typical-function": "^0.1.4"
   }
 }
